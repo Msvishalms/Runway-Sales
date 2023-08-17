@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Suite">
+  <test thread-count="1" parallel="tests" name="Test">
+    <classes>
+      <class name="opportunities.Navigate_to_oppurtunities_pageTest"/>
+      <class name="opportunities.VerifyOpportunityArePresentInListOfOppotunitiesPageTest"/>
+      <class name="campaigns.CreateCampaignUsingTheMandatoryFieldTest"/>
+      <class name="sales_order.UpdateExistingSalesNameTest"/>
+      <class name="sales_order.VerifySearchsalesOrderUsingSubjectTest"/>
+      <class name="calendar.CreateMonthlyBasedToDoWithAllFieldsTest"/>
+      <class name="campaigns.Navigate_To_CampaignspageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
